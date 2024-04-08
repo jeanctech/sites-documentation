@@ -1,4 +1,4 @@
-# Templates - Js
+# Sites-Documentation
 
 This template provides a minimal setup to get JavaScript working in Vite with Hmr and some EsLint rules.
 
