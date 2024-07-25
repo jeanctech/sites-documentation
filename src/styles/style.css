@@ -1,6 +1,6 @@
-/** style.css */
+/* Style.css */
 
-*{
+* {
   margin: 0rem;
   padding: 0rem;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
@@ -14,11 +14,13 @@
     background-color: #eeeeee;
     color: #333333;
   }
+
   .main-body {
     margin: 0rem;
     padding: 0rem;
     display: flex;
   }
+
   .header {
     margin: 0rem;
     padding: 0.5rem;
@@ -27,6 +29,7 @@
     display: flex;
     flex-direction: column;
   }
+
   .header-head {
     margin: 0.5rem;
     padding: 0.5rem;
@@ -37,6 +40,7 @@
     align-items: center;
     justify-content: center;
   }
+
   .head-img {
     margin: 0.2rem;
     padding: 0.2rem;
@@ -45,10 +49,12 @@
     align-items: center;
     justify-content: center;
   }
+
   .favicon {
     margin: 1rem;
     padding: 1rem;
   }
+
   .nav {
     margin: 1rem;
     padding: 2rem;
@@ -61,6 +67,7 @@
     justify-content: space-between;
     border-bottom: solid 1px #aaaaaa;
   }
+
   #navbar {
     margin: 0.5rem;
     padding: 0.5rem;
@@ -69,6 +76,7 @@
     text-align: justify;
     display: flex;
   }
+
   .nav-link {
     margin: 0.5rem;
     padding: 0.5rem;
@@ -77,10 +85,12 @@
     color: #333333;
     align-items: baseline;
   }
+
   .nav-link:hover {
     background-color: #dcdcdc;
     color: #333333;
   }
+
   nav a {
     margin: 0.2rem;
     padding: 0.3rem;
@@ -92,15 +102,18 @@
     border: solid 0.1rem #aaa;
     text-align: center;
     text-decoration: none;
-}
+  }
+
   nav a[aria-current='page'] {
     color: #242222;
     background-color: #d4d4d4;
   }
+
   hr {
     width: auto;
     color: #d3d3d3;
   }
+
   .main {
     margin: 1rem;
     padding: 1rem;
@@ -110,6 +123,7 @@
     justify-content: space-between;
     text-align: justify;
   }
+
   #main-doc {
     margin: 0rem;
     padding: 0rem;
@@ -122,6 +136,7 @@
     background-color: #f8f8ff;
     border-left: 0.1rem solid #ffffff;
   }
+
   .main-header {
     margin: 0rem;
     margin-left: 15px;
@@ -133,6 +148,7 @@
     color: #333333;
     text-align: justify;
   }
+
   .main-article {
     margin: 0rem;
     margin-left: 15px;
@@ -145,6 +161,7 @@
     align-items: baseline;
     text-align: justify;
   }
+
   .main-ul {
     margin: 1rem;
     padding: 1rem;
@@ -152,6 +169,7 @@
     color: #333333;
     text-align: justify;
   }
+
   #main-pre-row {
     margin: 1rem;
     padding: 1rem;
@@ -163,6 +181,7 @@
     justify-content: baseline;
     align-items: baseline;
   }
+
   .main-link {
     margin: 0rem;
     padding: 0.2rem;
@@ -170,30 +189,36 @@
     display: inline-flex;
     text-decoration: none;
   }
+
   .main-link:hover {
     color: #778899;
     background-color: #f8f8f8;
   }
+
   h1 {
     font-weight: bold;
     font-size: 1.6rem;
     text-align: justify;
   }
+
   h2 {
     font-weight: 500;
     font-size: 1.4rem;
     text-align: justify;
   }
+
   .main-p {
     font-weight: 300;
     font-size: medium;
     text-align: justify;
   }
+
   .main-strong {
     font-weight: 400;
     font-weight: medium;
     text-align: justify;
   }
+
   .footer {
     margin: 0rem;
     padding: 1rem;
@@ -219,6 +244,7 @@
     justify-content: center;
     align-items: center;
   }
+
   .main-body {
     margin: 0rem;
     padding: 0rem;
@@ -228,6 +254,7 @@
     justify-content: center;
     align-items: center;
   }
+
   .header {
     margin: 0rem;
     padding: 0.5rem;
@@ -238,6 +265,7 @@
     justify-content: center;
     align-items: center;
   }
+
   .header-head {
     margin: 0.5rem;
     padding: 0.5rem;
@@ -248,6 +276,7 @@
     justify-content: center;
     align-items: center;
   }
+
   .head-img {
     margin: 0.2rem;
     padding: 0.2rem;
@@ -256,10 +285,12 @@
     align-items: center;
     justify-content: center;
   }
+
   .favicon {
     margin: 1rem;
     padding: 1rem;
   }
+
   .nav {
     margin: 1rem;
     padding: 2rem;
@@ -272,6 +303,7 @@
     justify-content: center;
     border-bottom: solid 1px #aaaaaa;
   }
+
   #navbar {
     margin: 0.5rem;
     padding: 0.5rem;
@@ -283,6 +315,7 @@
     justify-content: center;
     align-items: center;
   }
+
   .nav-link {
     margin: 0.5rem;
     padding: 0.5rem;
@@ -294,10 +327,12 @@
     justify-content: center;
     align-items: center;
   }
+
   .nav-link:hover {
     background-color: #dcdcdc;
     color: #333333;
   }
+
   nav a {
     margin: 0.2rem;
     padding: 0.3rem;
@@ -314,14 +349,17 @@
     -ms-border-radius: 0.2rem;
     -o-border-radius: 0.2rem;
   }
+
   nav a[aria-current='page'] {
     color: #242222;
     background-color: #d4d4d4;
   }
+
   hr {
     width: auto;
     color: #d3d3d3;
   }
+
   .main {
     margin: 1rem;
     padding: 1rem;
@@ -331,6 +369,7 @@
     align-items: center;
     justify-content: center;
   }
+
   #main-doc {
     margin: 0rem;
     padding: 0rem;
@@ -343,6 +382,7 @@
     align-items: center;
     border-left: 0.1rem solid #ffffff;
   }
+
   .main-header {
     margin: 0rem;
     margin-left: 15px;
@@ -358,6 +398,7 @@
     justify-content: baseline;
     align-items: baseline;
   }
+
   .main-article {
     margin: 0rem;
     margin-left: 15px;
@@ -372,6 +413,7 @@
     justify-content: center;
     align-items: center;
   }
+
   .main-ul {
     margin: 1rem;
     padding: 1rem;
@@ -382,6 +424,7 @@
     justify-content: baseline;
     align-items: baseline;
   }
+
   #main-pre-row {
     margin: 1rem;
     padding: 1rem;
@@ -394,6 +437,7 @@
     justify-content: baseline;
     align-items: center;
   }
+
   .main-link {
     margin: 0rem;
     padding: 0.2rem;
@@ -401,26 +445,32 @@
     display: inline-flex;
     text-decoration: none;
   }
+
   .main-link:hover {
     color: #778899;
     background-color: #f8f8f8;
   }
+
   h1 {
     font-weight: bold;
     font-size: 1.6rem;
   }
+
   h2 {
     font-weight: 500;
     font-size: 1.4rem;
   }
+
   .main-p {
     font-weight: 300;
     font-size: medium;
   }
+
   .main-strong {
     font-weight: 400;
     font-weight: medium;
   }
+
   .footer {
     margin: 0rem;
     padding: 1rem;

@@ -1,3 +1,3 @@
-/** Script.js */
+/* Main.js */
 
 console.log("Hello World");
